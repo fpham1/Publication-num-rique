@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Quentin Tarantino - Movies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<h1>Quentin Tarantino: Wikipedia &amp IMDB's data</h1>
+<h2>Filter</h2>
+<div id="filters" class="button-group">  <button class="button is-checked" data-filter="*">Show all</button>
+  <button class="button" data-filter=".crime">Crime</button>
+  <button class="button" data-filter=".comedy">Comedy</button>
+  <button class="button" data-filter=".action">Action</button>
+  <button class="button" data-filter=".thriller">Thriller</button>
+  <button class="button" data-filter=".adventure">Adventure</button>
+</div>
+
+<h2>Sort</h2>
+<div id="sorts" class="button-group">  <button class="button is-checked" data-sort-by="original-order">Year</button>
+  <button class="button" data-sort-by="name">Name</button>
+  <button class="button" data-sort-by="symbol">Genre</button>
+  <button class="button" data-sort-by="weight">Duration</button>
+</div>
+
+<div class="grid">
+  <div class="element-item crime " data-category="crime">
+    <img src="covers/reservoir.jpg">
+    <h3 class="name">Reservoir Dogs</h3>
+    <p class="symbol">Crime</p>
+    <p class="number">1992</p>
+    <p class="weight">99 mins</p>
+  </div>
+  <div class="element-item crime " data-category="crime">
+    <img src="covers/true.jpg">
+    <h3 class="name">True Romance</h3>
+    <p class="symbol">Crime</p>
+    <p class="number">1993</p>
+    <p class="weight">119 mins</p>
+  </div>
+    <div class="element-item crime " data-category="crime">
+    <img src="covers/pulp.jpg">
+    <h3 class="name">Pulp Fiction</h3>
+    <p class="symbol">Crime</p>
+    <p class="number">1994</p>
+    <p class="weight">154 mins</p>
+  </div>
+    <div class="element-item crime " data-category="crime">
+    <img src="covers/natural.jpg">
+    <h3 class="name">Natural Born Killers</h3>
+    <p class="symbol">Crime</p>
+    <p class="number">1994</p>
+    <p class="weight">118 mins</p>
+  </div>
+  <div class="element-item comedy " data-category="comedy">
+    <img src="covers/four.jpg">
+    <h3 class="name">Four Rooms</h3>
+    <p class="symbol">Comedy</p>
+    <p class="number">1995</p>
+    <p class="weight">98 mins</p>
+  </div>
+  <div class="element-item action  " data-category="action">
+    <img src="covers/from.jpg">
+    <h3 class="name">From Dusk Till Dawn</h3>
+    <p class="symbol">Action</p>
+    <p class="number">1996</p>
+    <p class="weight">108 mins</p>
+  </div>
+  <div class="element-item crime " data-category="crime">
+    <img src="covers/jackie.jpg">
+    <h3 class="name">Jackie Brown</h3>
+    <p class="symbol">Crime</p>
+    <p class="number">1997</p>
+    <p class="weight">154 mins</p>
+  </div>
+  <div class="element-item action " data-category="action">
+    <img src="covers/killi.jpg">
+    <h3 class="name">Kill Bill: Volume I</h3>
+    <p class="symbol">Action</p>
+    <p class="number">2003</p>
+    <p class="weight">111 mins</p>
+  </div>
+  <div class="element-item action " data-category="action">
+    <img src="covers/killii.jpg">
+    <h3 class="name">Kill Bill: Volume II</h3>
+    <p class="symbol">Action</p>
+    <p class="number">2004</p>
+    <p class="weight">137 mins</p>
+  </div>
+  <div class="element-item thriller " data-category="thriller">
+    <img src="covers/death.jpg">
+    <h3 class="name">Death Proof</h3>
+    <p class="symbol">Thriller</p>
+    <p class="number">2007</p>
+    <p class="weight">113 mins</p>
+  </div>
+  <div class="element-item adventure " data-category="adventure">
+    <img src="covers/inglourious.jpg">
+    <h3 class="name">Inglourious Basterds</h3>
+    <p class="symbol">Adventure</p>
+    <p class="number">2009</p>
+    <p class="weight">153 mins</p>
+  </div>
+  <div class="element-item action " data-category="action">
+    <img src="covers/django.jpg">
+    <h3 class="name">Django Unchained</h3>
+    <p class="symbol">Action</p>
+    <p class="number">2013</p>
+    <p class="weight">165 mins</p>
+  </div>
+  <div class="element-item crime " data-category="crime">
+    <img src="covers/hateful.jpg">
+    <h3 class="name">Hateful Eight, The</h3>
+    <p class="symbol">Crime</p>
+    <p class="number">2015</p>
+    <p class="weight">168 mins</p>
+  </div>
+  <div class="element-item comedy " data-category="comedy">
+    <img src="covers/once.jpg">
+    <h3 class="name">Once Upton a Time… in Hollywood</h3>
+    <p class="symbol">Comedy</p>
+    <p class="number">2019</p>
+    <p class="weight">161 mins</p>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script><script  src="./script.js"></script>
+</body>
+</html>
